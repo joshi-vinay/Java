@@ -1,4 +1,6 @@
+package t1_Basics;
 import java.util.Scanner;
+
 
 public class Sum {
     public static void main(String[] args) {
