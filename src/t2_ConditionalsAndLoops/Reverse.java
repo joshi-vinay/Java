@@ -10,6 +10,7 @@ public class Reverse {
             n /= 10;
             ans = ans * 10 + rem;
         }
+
         System.out.println(ans);
 
     }
