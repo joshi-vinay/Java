@@ -15,6 +15,10 @@ public class Sum {
 //        System.out.print("The sum of "+num1+" and "+num2+" is : "+sum);
         return  sum;
     }
+    static int sum3(int a, int b){
+        int sum = a+b;
+        return sum;
+    }
 
 //    static void sum(){
 //        Scanner in = new Scanner(System.in);
@@ -30,9 +34,12 @@ public class Sum {
 //        sum();
 //        System.out.println("\n");
 //        sum();
-        int ans = sum2();
+//        int ans = sum2();
+        int ans = sum3(20,50);
         System.out.println("Answer is : "+ans);
 
 
     }
 }
+
+
