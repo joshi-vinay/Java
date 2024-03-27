@@ -12,7 +12,7 @@ public class LuckyNumber {
     public static void main(String[] args) {
         int[][] arr = {
                 {3,7,8},
-                {9,11,13,},
+                {9,11,13},
                 {15,16,17}
         };
 
