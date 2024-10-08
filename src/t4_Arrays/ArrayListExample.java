@@ -34,7 +34,5 @@ public class ArrayListExample {
         for (int i = 0; i < 5; i++) {
             System.out.print(list.get(i)+" ");  // Pass index here.
         }
-
-
     }
 }

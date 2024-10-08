@@ -2,6 +2,10 @@ package t6_BinarySearch.Assignment;
 
 import java.util.Arrays;
 
+/*
+Question Link:- https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+ */
+
 public class firstAndLast {
     public static void main(String[] args) {
         int[] arr = {5,7,7,7,7,8,8,10};

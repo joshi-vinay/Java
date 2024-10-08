@@ -18,7 +18,7 @@ public class TypeCasting {
 //        byte a = 40;
 //        byte b = 50;
 //        byte c = 100;
-//        int d = a * b / c;
+//        int d = a * b / c;    //Automatic type promotion in expressions, converted to biggest ones.
 //        System.out.println(d);
 
 //        int number = 'A';

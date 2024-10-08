@@ -6,11 +6,18 @@ import java.util.Scanner;
 public class Question1 {
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int n = in.nextInt();
-        boolean ans = isPrime(n);   //  isPrime.
-        System.out.println(ans);
+//        Scanner in = new Scanner(System.in);
+//        System.out.print("Enter a number: ");
+//        int n = in.nextInt();
+
+//        boolean ans = isPrime(n);   //  isPrime.
+//        System.out.println(ans);
+        System.out.println("Prime numbers between 1 to 100 are: ");
+        for(int i = 2; i<=100; i++){
+            if (isPrime(i)){
+                System.out.print(i+" ");
+            }
+        }
     }
 
     private static boolean isPrime(int n) {

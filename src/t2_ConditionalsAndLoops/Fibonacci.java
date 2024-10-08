@@ -12,25 +12,25 @@ public class Fibonacci {
         int count = 2;
 
         //  to print fibonacci series to nth place -->
-//        System.out.print(a + " " + b + " ");
+        System.out.print(a + " " + b + " ");
+        while (count <= n) {
+            int temp = b;
+            b = b + a;
+            a = temp;
+            System.out.print(b + " ");
+            count++;
+        }
+
+        //  to print nth fibonacci number -->
+
 //        while (count <= n) {
 //            int temp = b;
 //            b = b + a;
 //            a = temp;
 //            count++;
-//            System.out.print(b + " ");
 //        }
-
-        //  to print nth fibonacci number -->
-
-        while (count <= n) {
-            int temp = b;
-            b = b + a;
-            a = temp;
-            count++;
-        }
-        System.out.print(b);
-
+//        System.out.print(b);
+//
     }
 }
 

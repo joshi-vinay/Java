@@ -41,7 +41,7 @@ public class Loops {
 //        }
 
         /*
-        Syntax for do while loop-->
+        Syntax for do while loop-->\
         do{
             //body
         }while(condition);
