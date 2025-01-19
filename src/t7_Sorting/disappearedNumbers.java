@@ -9,7 +9,8 @@ class disappearedNumbers {
         int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
         sort(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println("The disappeared elements of the array are: " + Arrays.toString(new List[]{missing(nums)}));
+//        System.out.println("The disappeared elements of the array are: " + Arrays.toString(new List[]{missing(nums)}));
+        System.out.println("The disappeared elements of the array are: " + missing(nums));
     }
     static List<Integer> missing (int[] arr){
         List<Integer> ans = new ArrayList<>();
